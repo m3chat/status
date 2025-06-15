@@ -27,6 +27,6 @@ jobs:
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git add public/STATUS.JSON
+          git add STATUS.JSON
           git commit -m "Update STATUS.JSON [skip ci]" || echo "No changes"
           git push
