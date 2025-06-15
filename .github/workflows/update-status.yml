@@ -21,7 +21,7 @@ jobs:
         run: npm install
 
       - name: Run update script
-        run: node ../scripts/updateStatus.js
+        run: node .github/scripts/updateStatus.js
 
       - name: Commit and push
         run: |
